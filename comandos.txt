@@ -1,0 +1,35 @@
+  503  git branch -M main
+  504  git remote add origin https://github.com/douglas-burgos/Checkpoint-20Agosto2023-MaxAguilar.git
+  505  git remote -v
+  506  touch main.js
+  507  touch index.html
+  508  ls
+  509  git add .
+  510  git commit -m "commit 01 Max Aguilar"
+  511  git status
+  512  git push origin main
+  513  git branch feature
+  514  git checkout feature
+  515  mkdir Hardware
+  516  mkdir Software
+  517  mkdir SeguridadInformatica
+  518  cd Hardware
+  519  touch resumen.txt
+  520  cd ..
+  521  cd Software
+  522  touch resumen.txt
+  523  cd ..
+  524  cd SeguridadInformatica
+  525  touch resumen.txt
+  526  cd ..
+  527  git add .
+  528  git commit -m "commit 02 Max Aguilar"
+  529  git push origin feature
+  530  git checkout main
+  531  mv main.js resumenHardware.txt
+  532  ls
+  533  mv index.html resumenSoftware.txt
+  534  ls
+  535  history
+  536  touch comandos.txt
+  537  history 35 > comandos.txt
